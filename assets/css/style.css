@@ -45,6 +45,13 @@ svg:not(:root).svg-inline--fa {
   height: 16vh;
   max-width: auto;
   vertical-align: middle;
+  padding: 0;
+  margin:0;
+}
+
+.pic1 img, .pic2 img, .pic3 img, .pic4 img{
+  height: 16vh;
+  width: 100%;
 }
 
 .footer{
