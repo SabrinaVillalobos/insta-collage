@@ -1,4 +1,9 @@
-
+$(document).ready(function() {
+  $('#login').click(function() {
+    event.preventDefault();
+    checkLogin();
+  });
+});
 
 
 function drag(ev) {
@@ -14,3 +19,30 @@ function drop(ev) {
   var id_foto = ev.dataTransfer.getData('text');//ACA RECUPERAMOS LOS DATOS 
   ev.target.appendChild(document.getElementById(id_foto));
 }
+
+const checkLogin = () => {
+  let username = $('#name').val();
+  let pass = $('#pass').val();
+
+  if (avoidEmptyFields('input') !== false) {
+    console.log('holi');
+  }
+};
+
+const verifyUserName = username => {
+
+};
+
+const verifyPass = pass => {
+
+};
+
+const avoidEmptyFields = input => {
+  let isValid;
+  $(input).each(function() {
+    if ($(this).val().length === 0){
+      isValid = false;
+    }
+  });
+  return isValid;
+};
