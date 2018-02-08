@@ -1,0 +1,14 @@
+body {
+ background: linear-gradient(to left top, #5DB68C, #CC7B52) fixed;
+}
+.instaLogo{
+  height: 9em;
+  width: auto;
+}
+
+.dropdown-menu-center {
+  left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
+}
