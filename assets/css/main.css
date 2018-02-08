@@ -3,6 +3,12 @@
   color: #fff;
   height: 100vh;
 }
+
+div#form-container.col-sm {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .instaLogo{
   margin-top: 3em;
   margin-bottom: 2em;
@@ -15,40 +21,41 @@
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
+
 .form-control {
-    display: block;
-    width: 100%;
-    height: 45px;
-    padding: 6px 12px;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #fff;
-    background-color: #d6d6d657;
-    border:none;
-  }
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #fff;
+  background-color: #d6d6d657;
+  border:none;
+}
 
 
 input::-webkit-input-placeholder {
-color: #fff !important;
+  color: #fff !important;
 }
 
 input:-moz-placeholder { /* Firefox 18- */
-color: #fff !important;
+  color: #fff !important;
 }
 
 input::-moz-placeholder { /* Firefox 19+ */
-color: #fff !important;
+  color: #fff !important;
 }
 
 input:-ms-input-placeholder {
-color: #fff !important;
+  color: #fff !important;
 }
 
 .btn-success {
   color: #fff;
   background-color: transparent;
   border-color: #fff;
-  }
+}
 
 .dropdown-menu-center {
   left: 50% !important;
@@ -56,33 +63,40 @@ color: #fff !important;
   text-align: center !important;
   transform: translate(-50%, 0) !important;
 }
+
 .o {
   color:#fff;
   overflow: hidden;
   text-align: center;
   font-size: 1em;
 }
+
 .fblog{
   padding-bottom: 2.5em;
   padding-top: 1em;
 }
+
 .btn-default {
   color: #fff;
   background-color: transparent;
   border: none;
   padding-top: 1em;
 }
+
 input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
   width: 100%;
   height: 2.9em;
 }
+
 svg:not(:root).svg-inline--fa {
   overflow: visible;
   font-size: 2em;
 }
+
 .fblogTxt{
   font-size:1.1em;
 }
+
 .o:before,
 .o:after {
   background-color: #fff;
@@ -93,21 +107,26 @@ svg:not(:root).svg-inline--fa {
   vertical-align: middle;
   width: 50%;
 }
+
 a {
   text-decoration: none;
   color:#fff;
 }
+
 .o:before {
   right: 0.5em;
   margin-left: -4%;
 }
-.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
-    color: #fff;
-    background-color: transparent;
-    border-color: #8c8c8c;
+
 .o:after {
   left: 0.5em;
-  margin-right: -80%;
+  margin-right: -4%;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+  color: #fff;
+  background-color: transparent;
+  border-color: #8c8c8c;
 }
 
 .btn-default {

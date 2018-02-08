@@ -4,63 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Insta Collage</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-<div class="login">
-<div class="container">
-    <div class="row">
-        <div class="col-sm-12">
+  <div class="login">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
           <div class="dropdown text-center">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-    Idioma: español (España)
-    <span class="caret"></span>
-  </button>
-  <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenu1">
-    <li><a href="#">Inglés</a></li>
-    <li><a href="#">Alemán</a></li>
-    <li><a href="#">Francés</a></li>
-    <li><a href="#">Italiano</a></li>
-  </ul>
-</div>
- <div class="col-xs-12 center-block">
+            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Idioma: español (España)
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdownMenu1">
+              <li><a href="#">Inglés</a></li>
+              <li><a href="#">Alemán</a></li>
+              <li><a href="#">Francés</a></li>
+              <li><a href="#">Italiano</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm center-block">
           <img class ="instaLogo center-block img-responsive" src="assets/img/instagram_logo_white.png" alt="logo">
         </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-xs-12">
-           <fieldset>
-                <div class="form-group">
-                  <input class="form-control" placeholder="Nombre de Usuario" name="name" id="name" type="text" required="required">
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm" id="form-container">
+          <fieldset>
+              <div class="form-group">
+                <input class="form-control" placeholder="Nombre de Usuario" name="name" id="name" type="text">
               </div>
               <div class="form-group">
                 <input class="form-control" placeholder="Contraseña" name="password" type="password" value="" id="pass" required="required">
               </div>
-                <input class="loginbtn btn btn-lg btn-success btn-block" type="submit" value="Iniciar sesión">
-            </fieldset>
-
+              <input class="btn btn-lg btn-success btn-block" type="submit" value="Iniciar sesión" id="login">
+          </fieldset>
         </div>
-    </div>
-    <div class="col-sm-12 text-center forgotP"><p>¿Has olvidado tu información de inicio de sesión? <a href="">Obtén ayuda.</a></p></div>
-    <h4 class="o">O</h4>
-    <div class="fblog">
-    <div class="col-sm-12 text-center">
-      <i class="fab fa-facebook-square"></i> <span class="fblogTxt">Iniciar sesión con Facebook</span>
-      </div></div>
-</div>
-<hr>
-<div class="container-fluid">
       </div>
+      <div class="row">
+        <div class="col-sm text-center forgotP">
+          <p>¿Has olvidado tu información de inicio de sesión? <a href="">Obtén ayuda.</a></p>
+        </div>
+      </div>
+      <h4 class="o">O</h4>
+      <div class="row">
+        <div class="col-sm fblog text-center">
+          <i class="fab fa-facebook-square"></i>
+          <span class="fblogTxt">Iniciar sesión con Facebook</span>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container-fluid">
       <div class="text-center">
-      <p>¿No tienes una cuenta? <a href="">Regístrate</a></p></div>
-</div>
-</div>
+        <p>¿No tienes una cuenta? <a href="">Regístrate</a></p>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="assets/js/app.js">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
