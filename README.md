@@ -2,7 +2,7 @@
 ### Challenge Drag and Drop
 
 
-Este reto consistió en crear un sitio mobile que imita el login de Instagram, que contiene una galeria en la cuál podemos tomar y arrastrar elementos haciendo uso de la API Drag and Drop de HTML5.
+Este reto consistió en crear un sitio mobile que imita el login de Instagram y contiene una galeria en la cuál podemos tomar y arrastrar elementos haciendo uso de la API Drag and Drop de HTML5.
 
 # Como extra
 
