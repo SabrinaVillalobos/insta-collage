@@ -1,7 +1,11 @@
 $(document).ready(function() {
   $('#login').click(function() {
     event.preventDefault();
-    checkLogin();
+    if (checkLogin() === true) {
+      location.replace("gallery.html");
+    } else {
+      alert(`Hay un problema con tu contraseña. Recuerda que debe tener al menos 6 caracteres y no debe contener números secuenciales.`);
+    }
   });
 });
 
@@ -21,20 +25,47 @@ function drop(ev) {
 }
 
 const checkLogin = () => {
-  let username = $('#name').val();
   let pass = $('#pass').val();
 
   if (avoidEmptyFields('input') !== false) {
-    console.log('holi');
+    if (verifyPassLength(pass) === true) {
+      if (verifyPassIsNumbers(pass) === false) {
+        return true;
+      } else if (verifyPassIsNumbers(pass) === true) {
+        if (verifyPassSequential(pass) === true) {
+          return true;
+        } else {
+          return false;
+        }
+      }
+    }
   }
 };
 
-const verifyUserName = username => {
-
+const verifyPassLength = pass => {
+  if (pass.length >= 6) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
-const verifyPass = pass => {
+const verifyPassIsNumbers = pass => {
+  if (Number(pass) === NaN) {
+    return false;
+  } else {
+    return true;
+  }
+};
 
+const verifyPassSequential = pass => {
+  for (let i = 0; i < pass.length; i++) {
+    if (pass[i] <= pass[i+1]) {
+      return false;
+    } else {
+      return true;
+    }
+  }
 };
 
 const avoidEmptyFields = input => {
