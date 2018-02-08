@@ -12,3 +12,29 @@ body {
   text-align: center !important;
   transform: translate(-50%, 0) !important;
 }
+.o {
+  color:#fff;
+  overflow: hidden;
+  text-align: center;
+}
+
+.o:before,
+.o:after {
+  background-color: #fff;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.o:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.o:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
