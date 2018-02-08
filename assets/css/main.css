@@ -1,10 +1,53 @@
 body {
- background: linear-gradient(to left top, #5DB68C, #CC7B52) fixed;
+  background: linear-gradient(to left top, #5DB68C, #CC7B52) fixed;
+  color: #fff;
 }
 .instaLogo{
-  height: 9em;
+  margin-top: 3em;
+  margin-bottom: 2em;
+  top:5em;
+  height: 5em;
   width: auto;
 }
+
+.forgotP{
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 45px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    background-color: #d6d6d657;
+    border:none;
+  }
+
+
+input::-webkit-input-placeholder {
+color: #fff !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: #fff !important;
+}
+
+input::-moz-placeholder { /* Firefox 19+ */
+color: #fff !important;
+}
+
+input:-ms-input-placeholder {
+color: #fff !important;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: transparent;
+  border-color: #fff;
+  }
 
 .dropdown-menu-center {
   left: 50% !important;
@@ -16,8 +59,29 @@ body {
   color:#fff;
   overflow: hidden;
   text-align: center;
+  font-size: 1em;
 }
-
+.fblog{
+  padding-bottom: 4.8em;
+  padding-top: 1em;
+}
+.btn-default {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  padding-top: 1em;
+}
+input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].btn-block {
+  width: 100%;
+  height: 2.9em;
+}
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+  font-size: 2em;
+}
+.fblogTxt{
+  font-size:1.1em;
+}
 .o:before,
 .o:after {
   background-color: #fff;
@@ -37,4 +101,13 @@ body {
 .o:after {
   left: 0.5em;
   margin-right: -50%;
+}
+
+.btn-default {
+  color: #fff;
+  background-color: transparent;
+  border:none;
+}
+.form-group {
+  margin-bottom: 17px;
 }
