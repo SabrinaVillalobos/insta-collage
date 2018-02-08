@@ -1,0 +1,26 @@
+/*gallery*/
+
+.col-xs-3 {
+  width: 25%;
+  padding: 0;
+}
+.imgGall {
+  padding-top:4em;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+  display: block;
+  height: 11vh;
+  max-width: auto;
+}
+
+header{
+  height: 4em;
+  width: 100%;
+  background: #3FA9F5;
+}
+
+.logo{
+  height: 8vh;
+  width: auto;
+}

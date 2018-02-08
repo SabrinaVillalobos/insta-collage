@@ -1,6 +1,7 @@
-body {
+.login {
   background: linear-gradient(to left top, #5DB68C, #CC7B52) fixed;
   color: #fff;
+  height: 100vh;
 }
 .instaLogo{
   margin-top: 3em;
@@ -100,7 +101,10 @@ a {
   right: 0.5em;
   margin-left: -50%;
 }
-
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #8c8c8c;
 .o:after {
   left: 0.5em;
   margin-right: -50%;
@@ -114,3 +118,4 @@ a {
 .form-group {
   margin-bottom: 17px;
 }
+
