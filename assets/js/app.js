@@ -1,19 +1,13 @@
-/*función drag and drop collage*/
-
-function drag(ev){
-	console.log(ev.target.id);
-	ev.dataTransfer.setData("text", ev.target.id);
+function drag(ev) {
+  console.log(ev.target.src);
+  ev.dataTransfer.setData('text', ev.target.id);//ACA INDICAMOS EL TIPO DE DATO (FORMATO) QUE VAMOS A TRANFERIR 
 }
-drag();
 
 function permitirDrop(ev){
-	ev.preventDefault();
+  ev.preventDefault();
 }
-permitirDrop();
-
-function drop(ev){
-	ev.preventDefault();
-	var id_foto=ev.dataTransfer.getData("text");
-	ev.target.appendChild(document.getElementById(id_foto));
+function drop(ev) {
+  ev.preventDefault();
+  var id_foto = ev.dataTransfer.getData('text');//ACA RECUPERAMOS LOS DATOS 
+  ev.target.appendChild(document.getElementById(id_foto));
 }
-drop();

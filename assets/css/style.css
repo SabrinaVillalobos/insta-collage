@@ -1,26 +1,54 @@
 /*gallery*/
 
+body{
+  color:#3FA9F5;
+  ;
+}
 .col-xs-3 {
   width: 25%;
   padding: 0;
-}
-.imgGall {
-  padding-top:4em;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
   display: block;
   height: 11vh;
   max-width: auto;
+  vertical-align: middle;
 }
-
+.middle{
+  background-color: #26272B;
+  height: 4em;
+}
 header{
   height: 4em;
   width: 100%;
   background: #3FA9F5;
 }
 
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+  color: #3FA9F5;
+  font-size: 2.4em;
+  margin-top: 0.3em;
+}
 .logo{
   height: 8vh;
   width: auto;
+}
+.fab{
+  color:#3FA9F5;
+}
+
+.pics{
+  background-color: #A2A2AF;
+  display: block;
+  height: 16vh;
+  max-width: auto;
+  vertical-align: middle;
+}
+
+.footer{
+  background-color: #26272B;
+  height: 3em;
+  font-size:14px;
 }
