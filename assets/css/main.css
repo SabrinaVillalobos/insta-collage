@@ -99,7 +99,7 @@ a {
 }
 .o:before {
   right: 0.5em;
-  margin-left: -50%;
+  margin-left: -4%;
 }
 .btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
     color: #fff;
@@ -107,7 +107,7 @@ a {
     border-color: #8c8c8c;
 .o:after {
   left: 0.5em;
-  margin-right: -50%;
+  margin-right: -80%;
 }
 
 .btn-default {
@@ -118,4 +118,3 @@ a {
 .form-group {
   margin-bottom: 17px;
 }
-

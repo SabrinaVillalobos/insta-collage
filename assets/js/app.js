@@ -1,3 +1,6 @@
+
+
+
 function drag(ev) {
   console.log(ev.target.src);
   ev.dataTransfer.setData('text', ev.target.id);//ACA INDICAMOS EL TIPO DE DATO (FORMATO) QUE VAMOS A TRANFERIR 
